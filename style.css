@@ -1,0 +1,400 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+}
+
+header{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.9), rgba(36, 36, 36, 0.8)), url(Images/bg.jpg);
+    background-size: cover;           /* Ensures the image covers the element */
+    background-repeat: no-repeat;     /* Prevents tiling */
+    background-position: center;      /* Keeps image centered */
+    width: auto;
+    height: 90vh;
+}
+.mainbar{
+    width: 80%;
+    height: 15%;
+    margin: auto;
+    display: flex;
+}
+
+.mainbar img{
+    margin: 20px 0px;
+    width: 148px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.mainbar button{
+    position: relative;
+    left: 70%;
+}
+
+.mainbar .lang{
+    margin: 25px 0px;
+    width: 124px;
+    height: 32px;
+    color: white;
+    border: 1px solid rgba(255,255,255,0.5);
+    background-color: rgba(36,36,36,0.5);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+
+}
+
+.mainbar .signin{
+    margin: 25px 0px;
+    height: 32px;
+    background-color: red;
+    width: 76px;
+    margin-left: 6px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+ .lang i {
+    padding: 0px 5px;
+ }
+
+ .para{
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    width: 60%;
+    margin: auto;
+    margin-top: 60px;
+    text-align: center;
+ }
+
+ .para h1{
+    font-size: 3.5rem;
+    font-weight: 900;
+ }
+
+ .para h3{
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin: 15px 0px;
+ }
+
+ .para p{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 15px;
+ }
+
+ .para2{
+    width: 50%;
+    margin: auto;
+    display: flex;
+ }
+
+ .para2 input[type="email"]{
+    width: 60%;
+    padding: 10px 20px;
+    font: 14px;
+    background-color: rgba(36, 36, 36, 0.75);
+    height: 28px;
+    border:1px solid darkgrey;
+    border-radius: 5px;
+    color: white;
+ }
+
+
+ .para2 button{
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    width: 40%;
+    margin-left: 8px;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+ }
+
+
+ .para2 button:hover{
+    background-color: rgb(230, 0, 0);
+ }
+
+ .mainbar .signin:hover{
+    background-color: rgb(230, 0, 0);
+ }
+
+.gradient-hr {
+  height: 8px;
+  border: none;
+  background: linear-gradient(to right, #ff0000, #ff007f);
+  margin: 0;
+}
+
+ .main1{
+    background-color: rgb(0, 0, 0);
+    width: auto;
+    height: 1550px;
+ }
+
+ .main1 .trend{
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    padding-top: 3.6rem;
+ }
+
+ .trend h2{
+    margin: 0px 80px
+ }
+
+ .image1 {
+    width: 85%; 
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+ .image1 img{
+    margin: 25px 0px;
+    width:17%;
+    height: auto;
+    border-radius: 8px;
+    cursor: pointer;
+ }
+
+ .image1 img {
+   transition: all 0.3s ease-in-out; /* Apply to all properties with smooth effect */
+}
+
+ .image1 img:hover{
+   width: 19%;
+   height: auto;
+   box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+ }
+
+.more{
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    padding-top: 3rem;
+    width: 85%;
+    margin: auto;
+}
+
+ .info {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+ }
+
+ .info div{
+    width: 200px;
+    height: 300px;
+    margin: 25px 0px;
+    border-radius: 12px;
+ }
+
+ .card{
+    padding: 1.5rem;
+    border-radius: 20px;
+    background: linear-gradient(to bottom, #1c1c3c, #250d1f);
+    color: white;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+ }
+
+ .card h2{
+    margin-top: 10px;
+    padding: 0px 0px 20px 0px ;
+    font-size: 1.5rem;
+ }
+
+ .card p{
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+    color: rgba(255, 255, 255, 0.75);
+ }
+
+ .card {
+   transition: all 0.3s ease-in-out; /* Apply to all properties with smooth effect */
+}
+
+ .card:hover {
+   width: 220px;
+   height: 320px;
+   box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+ }
+
+ .faq{
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    padding-top: 3rem;
+    width: 85%;
+    margin: auto;
+ }
+
+ .questions{
+    width: 100;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+ }
+
+.questions div{
+    background-color: rgba(50,50,50,1);
+    width: 90%;
+    margin: auto;
+    font-size: 20px;
+    padding: 28px 15px;
+    justify-content: space-between;
+    border: none;
+    border-radius: 0px;
+}
+
+.questions .ques{
+    margin-top: 8px;
+    display: flex;
+}
+.ques h2{
+    font-size: 20px;
+    font-weight: 500;
+}
+.questions .ques1{
+    margin-top: 25px;
+}
+
+.ques .plus{
+    font-size: 25px;
+    font-weight: lighter;
+    align-items: end;
+}
+
+.questions .ques:hover {
+    background-color: rgba(70,70,70,1);
+    transition: linear;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    height: 600px;
+}
+
+.end_email {
+    width: 60%;
+    margin: auto;
+}
+
+.end_email p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.main2{
+    display: flex;
+}
+.main2 input{
+    width: 60%;
+    padding: 10px 25px;
+    font: 14px;
+    background-color: rgba(36, 36, 36, 0.75);
+    height: 28px;
+    border:1px solid darkgrey;
+    border-radius: 5px;
+ }
+
+ .main2 button{
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    width: 40%;
+    margin-left: 8px;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+ }
+
+ .main2 button:hover{
+    background-color: rgb(230, 0, 0);
+ }
+
+ .contact{
+    width: 80%;
+    margin: auto;
+    color: rgba(255, 255, 255, 0.75);
+ }
+
+ .contact p{
+    margin: 50px 0px 20px 0px;
+    font-size: 1rem;
+ }
+
+ .tags{
+    display: flex;
+    width: 70%;
+    margin:auto;
+    justify-content: space-between;
+ }
+
+ .tags_1{
+    line-height: 2;
+ }
+
+ .tags a{
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 0.85rem;
+    margin: 10px;
+ }
+
+ .bttn{
+    width: 80%;
+    margin: auto;
+ }
+ 
+ .bttn .lang{
+    margin: 50px 0px 40px 0px;
+    width: 124px;
+    height: 32px;
+    color: white;
+    border: 1px solid rgba(255,255,255,0.5);
+    background-color: rgba(36,36,36,0.5);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+ }
+
+ .lang i {
+    padding: 0px 5px;
+ }
+
+ .bttn p {
+    font-size: 0.85rem;
+    color: rgba(255, 255, 255, 0.75);
+ }
+
+ .bttn .ender{
+    font-size: 0.80rem;
+    color: rgba(255, 255, 255, 0.75);
+    margin-top: 25px;
+ }
+
+ .bttn .ender a{
+    padding-left: 5px;
+    color: rgb(35, 101, 201);
+ }
+
